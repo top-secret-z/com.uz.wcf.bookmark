@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.acp.bookmark">
+		<item name="wcf.acp.bookmark.receiverName"><![CDATA[Empfänger]]></item>
+		<item name="wcf.acp.bookmark.remark"><![CDATA[Bemerkung]]></item>
+		<item name="wcf.acp.bookmark.share.delete.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} dieses Lesezeichen-Teilen wirklich löschen?]]></item>
+		<item name="wcf.acp.bookmark.share.list"><![CDATA[Geteilte Lesezeichen]]></item>
+		<item name="wcf.acp.bookmark.shareWith"><![CDATA[Geteilt mit]]></item>
+		<item name="wcf.acp.bookmark.time"><![CDATA[Zeit]]></item>
+		<item name="wcf.acp.bookmark.username"><![CDATA[Benutzer]]></item>
+		<item name="wcf.acp.bookmark.url"><![CDATA[URL]]></item>
+	</category>
+	
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.boxController.com.uz.wcf.bookmark.newest"><![CDATA[Neueste Lesezeichen]]></item>
+		<item name="wcf.acp.box.boxController.com.uz.wcf.bookmark.top"><![CDATA[Mitglieder mit den meisten geteilten Lesezeichen]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.mod.bookmark"><![CDATA[Lesezeichen]]></item>
+		<item name="wcf.acp.group.option.category.user.bookmark"><![CDATA[Lesezeichen]]></item>
+		<item name="wcf.acp.group.option.mod.bookmark.canModerateBookmark"><![CDATA[Kann Lesezeichen moderieren]]></item>
+		<item name="wcf.acp.group.option.user.bookmark.canUseBookmark"><![CDATA[Kann Lesezeichen benutzen]]></item>
+		<item name="wcf.acp.group.option.user.bookmark.canViewBookmark"><![CDATA[Kann Lesezeichen sehen]]></item>
+	</category>
+	
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.bookmark"><![CDATA[Lesezeichen]]></item>
+		<item name="wcf.acp.menu.link.bookmarkShare.list"><![CDATA[Geteilte Lesezeichen]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_bookmark"><![CDATA[Lesezeichen]]></item>
+		<item name="wcf.acp.option.module_bookmark_activity"><![CDATA[Lesezeichen - Aktivität]]></item>
+		<item name="wcf.acp.option.category.bookmark"><![CDATA[Lesezeichen]]></item>
+		<item name="wcf.acp.option.category.bookmark.activity"><![CDATA[Aktivität]]></item>
+		<item name="wcf.acp.option.category.bookmark.display"><![CDATA[Anzeige]]></item>
+		<item name="wcf.acp.option.category.bookmark.display.control"><![CDATA[Benutzer-Menü]]></item>
+		<item name="wcf.acp.option.category.bookmark.display.icon"><![CDATA[Icon]]></item>
+		<item name="wcf.acp.option.category.bookmark.display.sidebar"><![CDATA[Seitenleiste]]></item>
+		<item name="wcf.acp.option.category.bookmark.display.userInformation"><![CDATA[Benutzer-Information]]></item>
+		<item name="wcf.acp.option.category.bookmark.general"><![CDATA[Allgemein]]></item>
+		<item name="wcf.acp.option.bookmark_activity_enable"><![CDATA[Teilen als Aktivität anzeigen]]></item>
+		<item name="wcf.acp.option.bookmark_basic_activity_enable"><![CDATA[Neues Lesezeichen als Aktivität anzeigen]]></item>
+		<item name="wcf.acp.option.bookmark_display_control"><![CDATA[Lesezeichen im Benutzer-Menü aktivieren]]></item>
+		<item name="wcf.acp.option.bookmark_display_icon"><![CDATA[Name des Icons]]></item>
+		<item name="wcf.acp.option.bookmark_display_icon.description"><![CDATA[Name des Font Awesome-Icons, das als Lesezeichen-Symbol genutzt werden soll. Standard ist „bookmark“.]]></item>
+		<item name="wcf.acp.option.bookmark_display_message_sidebar_bookmarks"><![CDATA[Lesezeichen]]></item>
+		<item name="wcf.acp.option.bookmark_display_message_sidebar_bookmarkShares"><![CDATA[Geteilte Lesezeichen]]></item>
+		<item name="wcf.acp.option.bookmark_display_userInformation_bookmarks"><![CDATA[Lesezeichen]]></item>
+		<item name="wcf.acp.option.bookmark_display_userInformation_bookmarkShares"><![CDATA[Geteilte Lesezeichen]]></item>
+		<item name="wcf.acp.option.bookmark_force_remark"><![CDATA[Lesezeichen-Bemerkung muss ausgefüllt werden]]></item>
+		<item name="wcf.acp.option.bookmark_share_enable"><![CDATA[Teilen von Lesezeichen aktivieren]]></item>
+	</category>
+	
+	<category name="wcf.acp.stat">
+		<item name="wcf.acp.stat.com.uz.wcf.bookmark.bookmark"><![CDATA[Lesezeichen]]></item>
+		<item name="wcf.acp.stat.com.uz.wcf.bookmark.share"><![CDATA[Geteilte Lesezeichen]]></item>
+	</category>
+	
+	<category name="wcf.acp.user">
+		<item name="wcf.acp.user.bulkProcessing.bookmarkDelete"><![CDATA[Lesezeichen löschen]]></item>
+	</category>
+	
+	<category name="wcf.bookmark">
+		<item name="wcf.bookmark.access"><![CDATA[Sichtbarkeit]]></item>
+		<item name="wcf.bookmark.access.all"><![CDATA[alle]]></item>
+		<item name="wcf.bookmark.access.follower"><![CDATA[Follower]]></item>
+		<item name="wcf.bookmark.access.private"><![CDATA[privat]]></item>
+		<item name="wcf.bookmark.access.public"><![CDATA[öffentlich]]></item>
+		<item name="wcf.bookmark.add"><![CDATA[Lesezeichen hinzufügen]]></item>
+		<item name="wcf.bookmark.add.success"><![CDATA[Das Lesezeichen wurde erfolgreich gespeichert.]]></item>
+		<item name="wcf.bookmark.bookmarks"><![CDATA[Lesezeichen]]></item>
+		<item name="wcf.bookmark.box.top"><![CDATA[{#$user->bookmarkShares} {if $user->bookmarkShares == 1}Lesezeichen{else}Lesezeichen{/if}]]></item>
+		<item name="wcf.bookmark.bookmarks.show"><![CDATA[Lesezeichen von {$user->username} anzeigen]]></item>
+		<item name="wcf.bookmark.button.accept"><![CDATA[Übernehmen]]></item>
+		<item name="wcf.bookmark.button.refuse"><![CDATA[Ablehnen]]></item>
+		<item name="wcf.bookmark.button.view"><![CDATA[Öffnen]]></item>
+		<item name="wcf.bookmark.edit"><![CDATA[Lesezeichen bearbeiten]]></item>
+		<item name="wcf.bookmark.edit.delete"><![CDATA[Löschen]]></item>
+		<item name="wcf.bookmark.edit.delete.confirm"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} dieses Lesezeichen wirklich löschen?]]></item>
+		<item name="wcf.bookmark.edit.edit"><![CDATA[Ändern]]></item>
+		<item name="wcf.bookmark.edit.share"><![CDATA[Teilen]]></item>
+		<item name="wcf.bookmark.exist"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} bereits ein Lesezeichen mit diesem Inhalt angelegt.]]></item>
+		<item name="wcf.bookmark.noEntries"><![CDATA[Es wurden keine Lesezeichen gefunden.]]></item>
+		<item name="wcf.bookmark.none"><![CDATA[Keine Lesezeichen]]></item>
+		<item name="wcf.bookmark.panel.shared"><![CDATA[Mit {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} geteilte Lesezeichen:]]></item>
+		<item name="wcf.bookmark.panel.showAll"><![CDATA[Eigene Lesezeichen anzeigen]]></item>
+		<item name="wcf.bookmark.profile.noItems"><![CDATA[Es sind keine anzeigbaren Lesezeichen vorhanden.]]></item>
+		<item name="wcf.bookmark.profile.moreItems"><![CDATA[Weitere Lesezeichen]]></item>
+		<item name="wcf.bookmark.profile.noMoreItems"><![CDATA[Keine weiteren Lesezeichen]]></item>
+		<item name="wcf.bookmark.recentActivityEvent.new"><![CDATA[Hat ein <a href="{link controller='User' object=$bookmark->getUserProfile()}{/link}#bookmark">Lesezeichen</a> erstellt.]]></item>
+		<item name="wcf.bookmark.recentActivityEvent.share"><![CDATA[Hat ein <a href="{link controller='User' object=$user}{/link}#bookmark">Lesezeichen</a> geteilt.]]></item>
+		<item name="wcf.bookmark.remark"><![CDATA[Bemerkung]]></item>
+		<item name="wcf.bookmark.share.accept.confirm"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} dieses Lesezeichen wirklich akzeptieren? Es wird ein Lesezeichen {if LANGUAGE_USE_INFORMAL_VARIANT}für dich{else}für Sie{/if} mit identischen Daten erstellt. Die Aktion kann nicht rückgängig gemacht werden.]]></item>
+		<item name="wcf.bookmark.share.accepted"><![CDATA[Angenommen]]></item>
+		<item name="wcf.bookmark.share.from"><![CDATA[Geteilt von]]></item>
+		<item name="wcf.bookmark.share.markAllAsConfirmed"><![CDATA[Alle als gelesen markieren]]></item>
+		<item name="wcf.bookmark.share.none"><![CDATA[Keine geteilten Lesezeichen]]></item>
+		<item name="wcf.bookmark.share.receiver"><![CDATA[Empfänger]]></item>
+		<item name="wcf.bookmark.share.receiver.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gebe{else}Geben Sie{/if} die ersten Zeichen des Benutzernamens ein und {if LANGUAGE_USE_INFORMAL_VARIANT}wähle{else}wählen Sie{/if} den bzw. die Benutzer aus. Benutzer, die {if LANGUAGE_USE_INFORMAL_VARIANT}dich ignorieren oder von denen du ignoriert wirst{else}Sie ignorieren oder von denen Sie ignoriert werden{/if}, können nicht ausgewählt werden.]]></item>
+		<item name="wcf.bookmark.share.refuse.confirm"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} dieses Lesezeichen wirklich ablehnen? Die Aktion kann nicht rückgängig gemacht werden.]]></item>
+		<item name="wcf.bookmark.share.refused"><![CDATA[Abgelehnt]]></item>
+		<item name="wcf.bookmark.share.remark"><![CDATA[Nachricht]]></item>
+		<item name="wcf.bookmark.share.remark.description"><![CDATA[Optionale Nachricht an die eingetragenen Empfänger.]]></item>
+		<item name="wcf.bookmark.share.success"><![CDATA[Das Lesezeichen wurde erfolgreich geteilt.]]></item>
+		<item name="wcf.bookmark.share.title"><![CDATA[Lesezeichen teilen]]></item>
+		<item name="wcf.bookmark.share.with"><![CDATA[Geteilt mit]]></item>
+		<item name="wcf.bookmark.share.with.not"><![CDATA[Nicht geteilt]]></item>
+		<item name="wcf.bookmark.shares"><![CDATA[Geteilte Lesezeichen]]></item>
+		<item name="wcf.bookmark.title"><![CDATA[Titel]]></item>
+		<item name="wcf.bookmark.search"><![CDATA[Textsuche]]></item>
+		<item name="wcf.bookmark.title.error.tooLong"><![CDATA[Der Titel darf maximal 255 Zeichen lang sein.]]></item>
+		<item name="wcf.bookmark.time"><![CDATA[Zeit]]></item>
+		<item name="wcf.bookmark.type"><![CDATA[Art]]></item>
+		<item name="wcf.bookmark.type.all"><![CDATA[Alle Arten]]></item>
+		<item name="wcf.bookmark.type.article"><![CDATA[Artikel]]></item>
+		<item name="wcf.bookmark.type.blog"><![CDATA[Blog]]></item>
+		<item name="wcf.bookmark.type.calendar"><![CDATA[Kalender]]></item>
+		<item name="wcf.bookmark.type.easymediaImage"><![CDATA[Bild]]></item>
+		<item name="wcf.bookmark.type.easymediaVideo"><![CDATA[Video]]></item>
+		<item name="wcf.bookmark.type.external"><![CDATA[Externer Link]]></item>
+		<item name="wcf.bookmark.type.filebase"><![CDATA[Filebase]]></item>
+		<item name="wcf.bookmark.type.forum"><![CDATA[Forum]]></item>
+		<item name="wcf.bookmark.type.gallery"><![CDATA[Galerie]]></item>
+		<item name="wcf.bookmark.type.lexicon"><![CDATA[Lexikon]]></item>
+		<item name="wcf.bookmark.type.marketplace"><![CDATA[Marktplatz]]></item>
+		<item name="wcf.bookmark.type.news"><![CDATA[News]]></item>
+		<item name="wcf.bookmark.type.poi"><![CDATA[Point of Interest]]></item>
+		<item name="wcf.bookmark.type.show"><![CDATA[Schaufenster]]></item>
+		<item name="wcf.bookmark.type.user"><![CDATA[Benutzer]]></item>
+		<item name="wcf.bookmark.url"><![CDATA[URL]]></item>
+		<item name="wcf.bookmark.url.description"><![CDATA[Die URL muss mit „http(s)://“ oder „ftp://“ beginnen.]]></item>
+		<item name="wcf.bookmark.url.description.edit"><![CDATA[Die URL kann nicht nachträglich editiert werden.]]></item>
+		<item name="wcf.bookmark.url.error.invalid"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} eine ungültige URL eingegeben.]]></item>
+		<item name="wcf.bookmark.url.open"><![CDATA[öffnen]]></item>
+	</category>
+	
+	<category name="wcf.user.condition">
+		<item name="wcf.user.condition.bookmarks"><![CDATA[Lesezeichen]]></item>
+		<item name="wcf.user.condition.bookmarkShares"><![CDATA[Geteilte Lesezeichen]]></item>
+	</category>
+	
+	<category name="wcf.user.menu">
+		<item name="wcf.user.menu.community.bookmarkShared"><![CDATA[Mit {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} geteilte Lesezeichen]]></item>
+		<item name="wcf.user.menu.community.bookmarkShared.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du kannst{else}Sie können{/if} ein geteiltes Lesezeichen annehmen oder ablehnen. Der Benutzer, der das Lesezeichen geteilt hat, wird darüber informiert.]]></item>
+	</category>
+	
+	<category name="wcf.user.notification">
+		<item name="wcf.user.notification.bookmark"><![CDATA[Lesezeichen]]></item>
+		<item name="wcf.user.notification.bookmark.mail.plaintext"><![CDATA[{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}] hat das Lesezeichen „{$bookmark->title}“ [URL:{@$bookmark->url}] mit {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} geteilt:]]></item>
+		<item name="wcf.user.notification.bookmark.mail.html"><![CDATA[<p><a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a> hat das Lesezeichen <a href="{$bookmark->url}">{$bookmark->title}</a> mit {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} geteilt:</p>]]></item>
+		<item name="wcf.user.notification.bookmark.message"><![CDATA[{@$author->getAnchorTag()} hat das Lesezeichen <a href="{$url}">{$title}</a> mit {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} geteilt. Nachricht: {$remark}]]></item>
+		<item name="wcf.user.notification.bookmark.title"><![CDATA[Lesezeichen wurde geteilt]]></item>
+		<item name="wcf.user.notification.bookmark.accept.message"><![CDATA[{@$author->getAnchorTag()} hat das {if LANGUAGE_USE_INFORMAL_VARIANT}von dir{else}von Ihnen{/if} geteilte Lesezeichen <a href="{$url}">{$title}</a> angenommen. {if LANGUAGE_USE_INFORMAL_VARIANT}Deine{else}Ihre{/if} Nachricht: {$remark}]]></item>
+		<item name="wcf.user.notification.bookmark.accept.title"><![CDATA[Lesezeichen wurde angenommen]]></item>
+		<item name="wcf.user.notification.bookmark.refuse.message"><![CDATA[{@$author->getAnchorTag()} hat das {if LANGUAGE_USE_INFORMAL_VARIANT}von dir{else}von Ihnen{/if} geteilte Lesezeichen <a href="{$url}">{$title}</a> abgelehnt. {if LANGUAGE_USE_INFORMAL_VARIANT}Deine{else}Ihre{/if} Nachricht: {$remark}]]></item>
+		<item name="wcf.user.notification.bookmark.refuse.title"><![CDATA[Lesezeichen wurde abgelehnt]]></item>
+		<item name="wcf.user.notification.com.uz.wcf.bookmark"><![CDATA[Lesezeichen]]></item>
+		<item name="wcf.user.notification.com.uz.wcf.bookmark.notification.bookmark"><![CDATA[Lesezeichen wurde geteilt]]></item>
+		<item name="wcf.user.notification.com.uz.wcf.bookmark.notification.accept.accept"><![CDATA[Lesezeichen wurde angenommen]]></item>
+		<item name="wcf.user.notification.com.uz.wcf.bookmark.notification.refuse.refuse"><![CDATA[Lesezeichen wurde abgelehnt]]></item>
+	</category>
+	
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.menu.bookmark"><![CDATA[Lesezeichen]]></item>
+	</category>
+	
+	<category name="wcf.user.recentActivity">
+		<item name="wcf.user.recentActivity.com.uz.wcf.bookmark.recentActivityEvent.new"><![CDATA[Lesezeichen]]></item>
+		<item name="wcf.user.recentActivity.com.uz.wcf.bookmark.recentActivityEvent.share"><![CDATA[Lesezeichen]]></item>
+	</category>
+</language>

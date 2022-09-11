@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/templateListener.xsd">
+	<import>
+		<templatelistener name="bookmarkUserPanelDropdown">
+			<environment>user</environment>
+			<templatename>pageHeaderUser</templatename>
+			<eventname>menuItems</eventname>
+			<templatecode><![CDATA[{include file='__bookmarkUserPanelDropdown'}]]></templatecode>
+		</templatelistener>
+		<templatelistener name="mobileMenuBookmark">
+			<environment>user</environment>
+			<templatename>pageMenuMobile</templatename>
+			<eventname>userMenuItems</eventname>
+			<templatecode><![CDATA[{include file='__mobileMenuBookmark'}]]></templatecode>
+		</templatelistener>
+		
+		<templatelistener name="bookmarkJavascriptInclude">
+			<environment>user</environment>
+			<templatename>headIncludeJavaScript</templatename>
+			<eventname>javascriptInclude</eventname>
+			<templatecode><![CDATA[{include file='__bookmarkJavascriptInclude'}]]></templatecode>
+		</templatelistener>
+		<templatelistener name="bookmarkJavascriptLanguageImport">
+			<environment>user</environment>
+			<templatename>headIncludeJavaScript</templatename>
+			<eventname>javascriptLanguageImport</eventname>
+			<templatecode><![CDATA[{include file='__bookmarkJavascriptLanguageImport'}]]></templatecode>
+		</templatelistener>
+		
+		<templatelistener name="bookmarkArticle">
+			<environment>user</environment>
+			<templatename>article</templatename>
+			<eventname>contentHeaderNavigation</eventname>
+			<templatecode><![CDATA[{include file='__bookmarkArticle'}]]></templatecode>
+		</templatelistener>
+		<templatelistener name="bookmarkUser">
+			<environment>user</environment>
+			<templatename>user</templatename>
+			<eventname>contentHeaderNavigation</eventname>
+			<templatecode><![CDATA[{include file='__bookmarkUser'}]]></templatecode>
+		</templatelistener>
+		
+		<templatelistener name="bookmarkUserInformationStatistics">
+			<environment>user</environment>
+			<templatename>userInformationStatistics</templatename>
+			<eventname>statistics</eventname>
+			<templatecode><![CDATA[{include file='__bookmarkUserInformationStatistics'}]]></templatecode>
+		</templatelistener>
+		<templatelistener name="bookmarkMessageSidebar">
+			<environment>user</environment>
+			<templatename>messageSidebar</templatename>
+			<eventname>userCredits</eventname>
+			<templatecode><![CDATA[{include file='__bookmarkMessageSidebar'}]]></templatecode>
+		</templatelistener>
+	</import>
+</data>
