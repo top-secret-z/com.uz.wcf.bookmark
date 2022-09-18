@@ -1,18 +1,18 @@
 .bookmarkItem {
-	.bookmarkInfo {
-		display: flex;
-	}
-	
-	.bookmarkOwner {
-		flex: 1 1 auto;
-	}
-	.bookmarkTime {
-		flex: 0 0 auto;
-		margin-left: 10px;
-	}
+    .bookmarkInfo {
+        display: flex;
+    }
+
+    .bookmarkOwner {
+        flex: 1 1 auto;
+    }
+    .bookmarkTime {
+        flex: 0 0 auto;
+        margin-left: 10px;
+    }
 }
 
 .bookmarkProfileTitle {
-	margin-top: 10px;
-	font-size: 115%;
+    margin-top: 10px;
+    font-size: 115%;
 }

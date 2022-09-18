@@ -1,173 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
-	<category name="wcf.acp.bookmark">
-		<item name="wcf.acp.bookmark.receiverName"><![CDATA[Receiver]]></item>
-		<item name="wcf.acp.bookmark.remark"><![CDATA[Remark]]></item>
-		<item name="wcf.acp.bookmark.share.delete.sure"><![CDATA[Do you really want to delete this bookmark share?]]></item>
-		<item name="wcf.acp.bookmark.share.list"><![CDATA[Shared Bookmarks]]></item>
-		<item name="wcf.acp.bookmark.shareWith"><![CDATA[Shared with]]></item>
-		<item name="wcf.acp.bookmark.time"><![CDATA[Time]]></item>
-		<item name="wcf.acp.bookmark.username"><![CDATA[User]]></item>
-		<item name="wcf.acp.bookmark.url"><![CDATA[URL]]></item>
-	</category>
-	
-	<category name="wcf.acp.box">
-		<item name="wcf.acp.box.boxController.com.uz.wcf.bookmark.newest"><![CDATA[Newest Bookmarks]]></item>
-		<item name="wcf.acp.box.boxController.com.uz.wcf.bookmark.top"><![CDATA[Members with the most shared Bookmarks]]></item>
-	</category>
-	
-	<category name="wcf.acp.group">
-		<item name="wcf.acp.group.option.category.mod.bookmark"><![CDATA[Bookmarks]]></item>
-		<item name="wcf.acp.group.option.category.user.bookmark"><![CDATA[Bookmarks]]></item>
-		<item name="wcf.acp.group.option.mod.bookmark.canModerateBookmark"><![CDATA[Can moderate Bookmarks]]></item>
-		<item name="wcf.acp.group.option.user.bookmark.canUseBookmark"><![CDATA[Can use Bookmarks]]></item>
-		<item name="wcf.acp.group.option.user.bookmark.canViewBookmark"><![CDATA[Can see Bookmarks]]></item>
-	</category>
-	
-	<category name="wcf.acp.menu">
-		<item name="wcf.acp.menu.link.bookmark"><![CDATA[Bookmarks]]></item>
-		<item name="wcf.acp.menu.link.bookmarkShare.list"><![CDATA[Shared Bookmarks]]></item>
-	</category>
-	
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.module_bookmark"><![CDATA[Bookmarks]]></item>
-		<item name="wcf.acp.option.module_bookmark_activity"><![CDATA[Bookmarks - Activities]]></item>
-		<item name="wcf.acp.option.category.bookmark"><![CDATA[Bookmarks]]></item>
-		<item name="wcf.acp.option.category.bookmark.activity"><![CDATA[Activity]]></item>
-		<item name="wcf.acp.option.category.bookmark.display"><![CDATA[Display]]></item>
-		<item name="wcf.acp.option.category.bookmark.display.control"><![CDATA[User Menu]]></item>
-		<item name="wcf.acp.option.category.bookmark.display.icon"><![CDATA[Icon]]></item>
-		<item name="wcf.acp.option.category.bookmark.display.sidebar"><![CDATA[Sidebar]]></item>
-		<item name="wcf.acp.option.category.bookmark.display.userInformation"><![CDATA[User Information]]></item>
-		<item name="wcf.acp.option.category.bookmark.general"><![CDATA[General]]></item>
-		<item name="wcf.acp.option.bookmark_activity_enable"><![CDATA[Show sharing as activity]]></item>
-		<item name="wcf.acp.option.bookmark_basic_activity_enable"><![CDATA[Show new bookmark as activity]]></item>
-		<item name="wcf.acp.option.bookmark_display_control"><![CDATA[Activate Bookmarks in User Menu]]></item>
-		<item name="wcf.acp.option.bookmark_display_icon"><![CDATA[Icon Name]]></item>
-		<item name="wcf.acp.option.bookmark_display_icon.description"><![CDATA[Name of the Font Awesome icon which is to be used as bookmark symbol. Default is “bookmark”.]]></item>
-		<item name="wcf.acp.option.bookmark_display_message_sidebar_bookmarks"><![CDATA[Bookmarks]]></item>
-		<item name="wcf.acp.option.bookmark_display_message_sidebar_bookmarkShares"><![CDATA[Shared Bookmarks]]></item>
-		<item name="wcf.acp.option.bookmark_display_userInformation_bookmarks"><![CDATA[Bookmarks]]></item>
-		<item name="wcf.acp.option.bookmark_display_userInformation_bookmarkShares"><![CDATA[Shared Bookmarks]]></item>
-		<item name="wcf.acp.option.bookmark_force_remark"><![CDATA[Bookmark Remark must be filled in]]></item>
-		<item name="wcf.acp.option.bookmark_share_enable"><![CDATA[Activate Sharing of Bookmarks]]></item>
-	</category>
-	
-	<category name="wcf.acp.stat">
-		<item name="wcf.acp.stat.com.uz.wcf.bookmark.bookmark"><![CDATA[Bookmarks]]></item>
-		<item name="wcf.acp.stat.com.uz.wcf.bookmark.share"><![CDATA[Shared Bookmarks]]></item>
-	</category>
-	
-	<category name="wcf.acp.user">
-		<item name="wcf.acp.user.bulkProcessing.bookmarkDelete"><![CDATA[Delete Bookmarks]]></item>
-	</category>
-	
-	<category name="wcf.bookmark">
-		<item name="wcf.bookmark.access"><![CDATA[Visibility]]></item>
-		<item name="wcf.bookmark.access.all"><![CDATA[all]]></item>
-		<item name="wcf.bookmark.access.follower"><![CDATA[Follower]]></item>
-		<item name="wcf.bookmark.access.private"><![CDATA[Private]]></item>
-		<item name="wcf.bookmark.access.public"><![CDATA[Public]]></item>
-		<item name="wcf.bookmark.add"><![CDATA[Add Bookmark]]></item>
-		<item name="wcf.bookmark.add.success"><![CDATA[The bookmark was successfully added.]]></item>
-		<item name="wcf.bookmark.bookmarks"><![CDATA[Bookmarks]]></item>
-		<item name="wcf.bookmark.box.top"><![CDATA[{#$user->bookmarkShares} {if $user->bookmarkShares == 1}Bookmark{else}Bookmarks{/if}]]></item>
-		<item name="wcf.bookmark.bookmarks.show"><![CDATA[Show bookmarks of {$user->username}]]></item>
-		<item name="wcf.bookmark.button.accept"><![CDATA[Accept]]></item>
-		<item name="wcf.bookmark.button.refuse"><![CDATA[Refuse]]></item>
-		<item name="wcf.bookmark.button.view"><![CDATA[Open]]></item>
-		<item name="wcf.bookmark.edit"><![CDATA[Edit bookmark]]></item>
-		<item name="wcf.bookmark.edit.delete"><![CDATA[Delete]]></item>
-		<item name="wcf.bookmark.edit.delete.confirm"><![CDATA[Do you really want to delete this bookmark?]]></item>
-		<item name="wcf.bookmark.edit.edit"><![CDATA[Edit]]></item>
-		<item name="wcf.bookmark.edit.share"><![CDATA[Share]]></item>
-		<item name="wcf.bookmark.exist"><![CDATA[You already have bookmarked this item.]]></item>
-		<item name="wcf.bookmark.noEntries"><![CDATA[No bookmarks were found.]]></item>
-		<item name="wcf.bookmark.none"><![CDATA[No bookmarks]]></item>
-		<item name="wcf.bookmark.panel.shared"><![CDATA[Bookmarks shared with you:]]></item>
-		<item name="wcf.bookmark.panel.showAll"><![CDATA[Show own bookmarks]]></item>
-		<item name="wcf.bookmark.profile.noItems"><![CDATA[There are no bookmarks to be displayed.]]></item>
-		<item name="wcf.bookmark.profile.moreItems"><![CDATA[More bookmarks]]></item>
-		<item name="wcf.bookmark.profile.noMoreItems"><![CDATA[No more bookmarks]]></item>
-		<item name="wcf.bookmark.recentActivityEvent.new"><![CDATA[Has created a <a href="{link controller='User' object=$bookmark->getUserProfile()}{/link}#bookmark">bookmark</a>.]]></item>
-		<item name="wcf.bookmark.recentActivityEvent.share"><![CDATA[Has shared a <a href="{link controller='User' object=$user}{/link}#bookmark">bookmark</a>.]]></item>
-		<item name="wcf.bookmark.remark"><![CDATA[Remark]]></item>
-		<item name="wcf.bookmark.share.accept.confirm"><![CDATA[Do you really want to accept this bookmark? An identical bookmark will be created for you. You cannot undo this action.]]></item>
-		<item name="wcf.bookmark.share.accepted"><![CDATA[Accepted]]></item>
-		<item name="wcf.bookmark.share.from"><![CDATA[Shared by]]></item>
-		<item name="wcf.bookmark.share.markAllAsConfirmed"><![CDATA[Mark all as read]]></item>
-		<item name="wcf.bookmark.share.none"><![CDATA[No shared bookmarks]]></item>
-		<item name="wcf.bookmark.share.receiver"><![CDATA[Receiver]]></item>
-		<item name="wcf.bookmark.share.receiver.description"><![CDATA[Enter the first letters of the usernames and select the desired user(s). Users blocked by you or blocking you cannot be selected.]]></item>
-		<item name="wcf.bookmark.share.refuse.confirm"><![CDATA[Do you really want to refuse this bokmark? You cannot undo this action.]]></item>
-		<item name="wcf.bookmark.share.refused"><![CDATA[Refused]]></item>
-		<item name="wcf.bookmark.share.remark"><![CDATA[Notice]]></item>
-		<item name="wcf.bookmark.share.remark.description"><![CDATA[Optional notice for above reiceivers.]]></item>
-		<item name="wcf.bookmark.share.success"><![CDATA[The bookmark was successfully shared.]]></item>
-		<item name="wcf.bookmark.share.title"><![CDATA[Share bookmark]]></item>
-		<item name="wcf.bookmark.share.with"><![CDATA[Shared with]]></item>
-		<item name="wcf.bookmark.share.with.not"><![CDATA[Not shared]]></item>
-		<item name="wcf.bookmark.shares"><![CDATA[Shared bookmarks]]></item>
-		<item name="wcf.bookmark.search"><![CDATA[Text Search]]></item>
-		<item name="wcf.bookmark.title"><![CDATA[Title]]></item>
-		<item name="wcf.bookmark.title.error.tooLong"><![CDATA[A maximum of 255 characters is allowed.]]></item>
-		<item name="wcf.bookmark.time"><![CDATA[Time]]></item>
-		<item name="wcf.bookmark.type"><![CDATA[Type]]></item>
-		<item name="wcf.bookmark.type.all"><![CDATA[All types]]></item>
-		<item name="wcf.bookmark.type.article"><![CDATA[Article]]></item>
-		<item name="wcf.bookmark.type.blog"><![CDATA[Blog]]></item>
-		<item name="wcf.bookmark.type.calendar"><![CDATA[Calendar]]></item>
-		<item name="wcf.bookmark.type.easymediaImage"><![CDATA[Image]]></item>
-		<item name="wcf.bookmark.type.easymediaVideo"><![CDATA[Video]]></item>
-		<item name="wcf.bookmark.type.external"><![CDATA[External link]]></item>
-		<item name="wcf.bookmark.type.filebase"><![CDATA[Filebase]]></item>
-		<item name="wcf.bookmark.type.forum"><![CDATA[Forum]]></item>
-		<item name="wcf.bookmark.type.gallery"><![CDATA[Gallery]]></item>
-		<item name="wcf.bookmark.type.lexicon"><![CDATA[Lexicon]]></item>
-		<item name="wcf.bookmark.type.marketplace"><![CDATA[Marketplace]]></item>
-		<item name="wcf.bookmark.type.news"><![CDATA[News]]></item>
-		<item name="wcf.bookmark.type.poi"><![CDATA[Point of Interest]]></item>
-		<item name="wcf.bookmark.type.show"><![CDATA[Display Window]]></item>
-		<item name="wcf.bookmark.type.user"><![CDATA[User]]></item>
-		<item name="wcf.bookmark.url"><![CDATA[URL]]></item>
-		<item name="wcf.bookmark.url.description"><![CDATA[The URL must start with “http(s)://” oder “ftp://”.]]></item>
-		<item name="wcf.bookmark.url.description.edit"><![CDATA[You cannot change the URL anymore.]]></item>
-		<item name="wcf.bookmark.url.error.invalid"><![CDATA[The entered URL is invalid.]]></item>
-		<item name="wcf.bookmark.url.open"><![CDATA[Open]]></item>
-	</category>
-	
-	<category name="wcf.user.condition">
-		<item name="wcf.user.condition.bookmarks"><![CDATA[Bookmarks]]></item>
-		<item name="wcf.user.condition.bookmarkShares"><![CDATA[Shared bookmarks]]></item>
-	</category>
-	
-	<category name="wcf.user.menu">
-		<item name="wcf.user.menu.community.bookmarkShared"><![CDATA[Bookmarks shared with you]]></item>
-		<item name="wcf.user.menu.community.bookmarkShared.description"><![CDATA[You may accept or refuse a shared bookmark. The user sharing the bookmark will be informed.]]></item>
-	</category>
-	
-	<category name="wcf.user.notification">
-		<item name="wcf.user.notification.bookmark"><![CDATA[Bookmarks]]></item>
-		<item name="wcf.user.notification.bookmark.mail.plaintext"><![CDATA[{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}] has shared the bookmark “{$bookmark->title}” [URL:{@$bookmark->url}] with you:]]></item>
-		<item name="wcf.user.notification.bookmark.mail.html"><![CDATA[<p><a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a> has shared the bookmark <a href="{$bookmark->url}">{$bookmark->title}</a> with you:</p>]]></item>
-		<item name="wcf.user.notification.bookmark.message"><![CDATA[{@$author->getAnchorTag()} has shared the bookmark <a href="{$url}">{$title}</a> with you. Notice: {$remark}]]></item>
-		<item name="wcf.user.notification.bookmark.title"><![CDATA[Bookmark was shared]]></item>
-		<item name="wcf.user.notification.bookmark.accept.message"><![CDATA[{@$author->getAnchorTag()} has accepted the shared bookmark <a href="{$url}">{$title}</a>. Your notice: {$remark}]]></item>
-		<item name="wcf.user.notification.bookmark.accept.title"><![CDATA[Bookmarks wurde angenommen]]></item>
-		<item name="wcf.user.notification.bookmark.refuse.message"><![CDATA[{@$author->getAnchorTag()} has refused the shared bookmark <a href="{$url}">{$title}</a>. Your notice: {$remark}]]></item>
-		<item name="wcf.user.notification.bookmark.refuse.title"><![CDATA[Bookmark was refused]]></item>
-		<item name="wcf.user.notification.com.uz.wcf.bookmark"><![CDATA[Bookmark]]></item>
-		<item name="wcf.user.notification.com.uz.wcf.bookmark.notification.bookmark"><![CDATA[Bookmark was shared]]></item>
-		<item name="wcf.user.notification.com.uz.wcf.bookmark.notification.accept.accept"><![CDATA[Bookmark was accepted]]></item>
-		<item name="wcf.user.notification.com.uz.wcf.bookmark.notification.refuse.refuse"><![CDATA[Bookmark was refused]]></item>
-	</category>
-	
-	<category name="wcf.user.profile">
-		<item name="wcf.user.profile.menu.bookmark"><![CDATA[Bookmarks]]></item>
-	</category>
-	
-	<category name="wcf.user.recentActivity">
-		<item name="wcf.user.recentActivity.com.uz.wcf.bookmark.recentActivityEvent.new"><![CDATA[Bookmark]]></item>
-		<item name="wcf.user.recentActivity.com.uz.wcf.bookmark.recentActivityEvent.share"><![CDATA[Bookmark]]></item>
-	</category>
+    <category name="wcf.acp.bookmark">
+        <item name="wcf.acp.bookmark.receiverName"><![CDATA[Receiver]]></item>
+        <item name="wcf.acp.bookmark.remark"><![CDATA[Remark]]></item>
+        <item name="wcf.acp.bookmark.share.delete.sure"><![CDATA[Do you really want to delete this bookmark share?]]></item>
+        <item name="wcf.acp.bookmark.share.list"><![CDATA[Shared Bookmarks]]></item>
+        <item name="wcf.acp.bookmark.shareWith"><![CDATA[Shared with]]></item>
+        <item name="wcf.acp.bookmark.time"><![CDATA[Time]]></item>
+        <item name="wcf.acp.bookmark.username"><![CDATA[User]]></item>
+        <item name="wcf.acp.bookmark.url"><![CDATA[URL]]></item>
+    </category>
+
+    <category name="wcf.acp.box">
+        <item name="wcf.acp.box.boxController.com.uz.wcf.bookmark.newest"><![CDATA[Newest Bookmarks]]></item>
+        <item name="wcf.acp.box.boxController.com.uz.wcf.bookmark.top"><![CDATA[Members with the most shared Bookmarks]]></item>
+    </category>
+
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.category.mod.bookmark"><![CDATA[Bookmarks]]></item>
+        <item name="wcf.acp.group.option.category.user.bookmark"><![CDATA[Bookmarks]]></item>
+        <item name="wcf.acp.group.option.mod.bookmark.canModerateBookmark"><![CDATA[Can moderate Bookmarks]]></item>
+        <item name="wcf.acp.group.option.user.bookmark.canUseBookmark"><![CDATA[Can use Bookmarks]]></item>
+        <item name="wcf.acp.group.option.user.bookmark.canViewBookmark"><![CDATA[Can see Bookmarks]]></item>
+    </category>
+
+    <category name="wcf.acp.menu">
+        <item name="wcf.acp.menu.link.bookmark"><![CDATA[Bookmarks]]></item>
+        <item name="wcf.acp.menu.link.bookmarkShare.list"><![CDATA[Shared Bookmarks]]></item>
+    </category>
+
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.module_bookmark"><![CDATA[Bookmarks]]></item>
+        <item name="wcf.acp.option.module_bookmark_activity"><![CDATA[Bookmarks - Activities]]></item>
+        <item name="wcf.acp.option.category.bookmark"><![CDATA[Bookmarks]]></item>
+        <item name="wcf.acp.option.category.bookmark.activity"><![CDATA[Activity]]></item>
+        <item name="wcf.acp.option.category.bookmark.display"><![CDATA[Display]]></item>
+        <item name="wcf.acp.option.category.bookmark.display.control"><![CDATA[User Menu]]></item>
+        <item name="wcf.acp.option.category.bookmark.display.icon"><![CDATA[Icon]]></item>
+        <item name="wcf.acp.option.category.bookmark.display.sidebar"><![CDATA[Sidebar]]></item>
+        <item name="wcf.acp.option.category.bookmark.display.userInformation"><![CDATA[User Information]]></item>
+        <item name="wcf.acp.option.category.bookmark.general"><![CDATA[General]]></item>
+        <item name="wcf.acp.option.bookmark_activity_enable"><![CDATA[Show sharing as activity]]></item>
+        <item name="wcf.acp.option.bookmark_basic_activity_enable"><![CDATA[Show new bookmark as activity]]></item>
+        <item name="wcf.acp.option.bookmark_display_control"><![CDATA[Activate Bookmarks in User Menu]]></item>
+        <item name="wcf.acp.option.bookmark_display_icon"><![CDATA[Icon Name]]></item>
+        <item name="wcf.acp.option.bookmark_display_icon.description"><![CDATA[Name of the Font Awesome icon which is to be used as bookmark symbol. Default is “bookmark”.]]></item>
+        <item name="wcf.acp.option.bookmark_display_message_sidebar_bookmarks"><![CDATA[Bookmarks]]></item>
+        <item name="wcf.acp.option.bookmark_display_message_sidebar_bookmarkShares"><![CDATA[Shared Bookmarks]]></item>
+        <item name="wcf.acp.option.bookmark_display_userInformation_bookmarks"><![CDATA[Bookmarks]]></item>
+        <item name="wcf.acp.option.bookmark_display_userInformation_bookmarkShares"><![CDATA[Shared Bookmarks]]></item>
+        <item name="wcf.acp.option.bookmark_force_remark"><![CDATA[Bookmark Remark must be filled in]]></item>
+        <item name="wcf.acp.option.bookmark_share_enable"><![CDATA[Activate Sharing of Bookmarks]]></item>
+    </category>
+
+    <category name="wcf.acp.stat">
+        <item name="wcf.acp.stat.com.uz.wcf.bookmark.bookmark"><![CDATA[Bookmarks]]></item>
+        <item name="wcf.acp.stat.com.uz.wcf.bookmark.share"><![CDATA[Shared Bookmarks]]></item>
+    </category>
+
+    <category name="wcf.acp.user">
+        <item name="wcf.acp.user.bulkProcessing.bookmarkDelete"><![CDATA[Delete Bookmarks]]></item>
+    </category>
+
+    <category name="wcf.bookmark">
+        <item name="wcf.bookmark.access"><![CDATA[Visibility]]></item>
+        <item name="wcf.bookmark.access.all"><![CDATA[all]]></item>
+        <item name="wcf.bookmark.access.follower"><![CDATA[Follower]]></item>
+        <item name="wcf.bookmark.access.private"><![CDATA[Private]]></item>
+        <item name="wcf.bookmark.access.public"><![CDATA[Public]]></item>
+        <item name="wcf.bookmark.add"><![CDATA[Add Bookmark]]></item>
+        <item name="wcf.bookmark.add.success"><![CDATA[The bookmark was successfully added.]]></item>
+        <item name="wcf.bookmark.bookmarks"><![CDATA[Bookmarks]]></item>
+        <item name="wcf.bookmark.box.top"><![CDATA[{#$user->bookmarkShares} {if $user->bookmarkShares == 1}Bookmark{else}Bookmarks{/if}]]></item>
+        <item name="wcf.bookmark.bookmarks.show"><![CDATA[Show bookmarks of {$user->username}]]></item>
+        <item name="wcf.bookmark.button.accept"><![CDATA[Accept]]></item>
+        <item name="wcf.bookmark.button.refuse"><![CDATA[Refuse]]></item>
+        <item name="wcf.bookmark.button.view"><![CDATA[Open]]></item>
+        <item name="wcf.bookmark.edit"><![CDATA[Edit bookmark]]></item>
+        <item name="wcf.bookmark.edit.delete"><![CDATA[Delete]]></item>
+        <item name="wcf.bookmark.edit.delete.confirm"><![CDATA[Do you really want to delete this bookmark?]]></item>
+        <item name="wcf.bookmark.edit.edit"><![CDATA[Edit]]></item>
+        <item name="wcf.bookmark.edit.share"><![CDATA[Share]]></item>
+        <item name="wcf.bookmark.exist"><![CDATA[You already have bookmarked this item.]]></item>
+        <item name="wcf.bookmark.noEntries"><![CDATA[No bookmarks were found.]]></item>
+        <item name="wcf.bookmark.none"><![CDATA[No bookmarks]]></item>
+        <item name="wcf.bookmark.panel.shared"><![CDATA[Bookmarks shared with you:]]></item>
+        <item name="wcf.bookmark.panel.showAll"><![CDATA[Show own bookmarks]]></item>
+        <item name="wcf.bookmark.profile.noItems"><![CDATA[There are no bookmarks to be displayed.]]></item>
+        <item name="wcf.bookmark.profile.moreItems"><![CDATA[More bookmarks]]></item>
+        <item name="wcf.bookmark.profile.noMoreItems"><![CDATA[No more bookmarks]]></item>
+        <item name="wcf.bookmark.recentActivityEvent.new"><![CDATA[Has created a <a href="{link controller='User' object=$bookmark->getUserProfile()}{/link}#bookmark">bookmark</a>.]]></item>
+        <item name="wcf.bookmark.recentActivityEvent.share"><![CDATA[Has shared a <a href="{link controller='User' object=$user}{/link}#bookmark">bookmark</a>.]]></item>
+        <item name="wcf.bookmark.remark"><![CDATA[Remark]]></item>
+        <item name="wcf.bookmark.share.accept.confirm"><![CDATA[Do you really want to accept this bookmark? An identical bookmark will be created for you. You cannot undo this action.]]></item>
+        <item name="wcf.bookmark.share.accepted"><![CDATA[Accepted]]></item>
+        <item name="wcf.bookmark.share.from"><![CDATA[Shared by]]></item>
+        <item name="wcf.bookmark.share.markAllAsConfirmed"><![CDATA[Mark all as read]]></item>
+        <item name="wcf.bookmark.share.none"><![CDATA[No shared bookmarks]]></item>
+        <item name="wcf.bookmark.share.receiver"><![CDATA[Receiver]]></item>
+        <item name="wcf.bookmark.share.receiver.description"><![CDATA[Enter the first letters of the usernames and select the desired user(s). Users blocked by you or blocking you cannot be selected.]]></item>
+        <item name="wcf.bookmark.share.refuse.confirm"><![CDATA[Do you really want to refuse this bokmark? You cannot undo this action.]]></item>
+        <item name="wcf.bookmark.share.refused"><![CDATA[Refused]]></item>
+        <item name="wcf.bookmark.share.remark"><![CDATA[Notice]]></item>
+        <item name="wcf.bookmark.share.remark.description"><![CDATA[Optional notice for above reiceivers.]]></item>
+        <item name="wcf.bookmark.share.success"><![CDATA[The bookmark was successfully shared.]]></item>
+        <item name="wcf.bookmark.share.title"><![CDATA[Share bookmark]]></item>
+        <item name="wcf.bookmark.share.with"><![CDATA[Shared with]]></item>
+        <item name="wcf.bookmark.share.with.not"><![CDATA[Not shared]]></item>
+        <item name="wcf.bookmark.shares"><![CDATA[Shared bookmarks]]></item>
+        <item name="wcf.bookmark.search"><![CDATA[Text Search]]></item>
+        <item name="wcf.bookmark.title"><![CDATA[Title]]></item>
+        <item name="wcf.bookmark.title.error.tooLong"><![CDATA[A maximum of 255 characters is allowed.]]></item>
+        <item name="wcf.bookmark.time"><![CDATA[Time]]></item>
+        <item name="wcf.bookmark.type"><![CDATA[Type]]></item>
+        <item name="wcf.bookmark.type.all"><![CDATA[All types]]></item>
+        <item name="wcf.bookmark.type.article"><![CDATA[Article]]></item>
+        <item name="wcf.bookmark.type.blog"><![CDATA[Blog]]></item>
+        <item name="wcf.bookmark.type.calendar"><![CDATA[Calendar]]></item>
+        <item name="wcf.bookmark.type.easymediaImage"><![CDATA[Image]]></item>
+        <item name="wcf.bookmark.type.easymediaVideo"><![CDATA[Video]]></item>
+        <item name="wcf.bookmark.type.external"><![CDATA[External link]]></item>
+        <item name="wcf.bookmark.type.filebase"><![CDATA[Filebase]]></item>
+        <item name="wcf.bookmark.type.forum"><![CDATA[Forum]]></item>
+        <item name="wcf.bookmark.type.gallery"><![CDATA[Gallery]]></item>
+        <item name="wcf.bookmark.type.lexicon"><![CDATA[Lexicon]]></item>
+        <item name="wcf.bookmark.type.marketplace"><![CDATA[Marketplace]]></item>
+        <item name="wcf.bookmark.type.news"><![CDATA[News]]></item>
+        <item name="wcf.bookmark.type.poi"><![CDATA[Point of Interest]]></item>
+        <item name="wcf.bookmark.type.show"><![CDATA[Display Window]]></item>
+        <item name="wcf.bookmark.type.user"><![CDATA[User]]></item>
+        <item name="wcf.bookmark.url"><![CDATA[URL]]></item>
+        <item name="wcf.bookmark.url.description"><![CDATA[The URL must start with “http(s)://” oder “ftp://”.]]></item>
+        <item name="wcf.bookmark.url.description.edit"><![CDATA[You cannot change the URL anymore.]]></item>
+        <item name="wcf.bookmark.url.error.invalid"><![CDATA[The entered URL is invalid.]]></item>
+        <item name="wcf.bookmark.url.open"><![CDATA[Open]]></item>
+    </category>
+
+    <category name="wcf.user.condition">
+        <item name="wcf.user.condition.bookmarks"><![CDATA[Bookmarks]]></item>
+        <item name="wcf.user.condition.bookmarkShares"><![CDATA[Shared bookmarks]]></item>
+    </category>
+
+    <category name="wcf.user.menu">
+        <item name="wcf.user.menu.community.bookmarkShared"><![CDATA[Bookmarks shared with you]]></item>
+        <item name="wcf.user.menu.community.bookmarkShared.description"><![CDATA[You may accept or refuse a shared bookmark. The user sharing the bookmark will be informed.]]></item>
+    </category>
+
+    <category name="wcf.user.notification">
+        <item name="wcf.user.notification.bookmark"><![CDATA[Bookmarks]]></item>
+        <item name="wcf.user.notification.bookmark.mail.plaintext"><![CDATA[{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}] has shared the bookmark “{$bookmark->title}” [URL:{@$bookmark->url}] with you:]]></item>
+        <item name="wcf.user.notification.bookmark.mail.html"><![CDATA[<p><a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a> has shared the bookmark <a href="{$bookmark->url}">{$bookmark->title}</a> with you:</p>]]></item>
+        <item name="wcf.user.notification.bookmark.message"><![CDATA[{@$author->getAnchorTag()} has shared the bookmark <a href="{$url}">{$title}</a> with you. Notice: {$remark}]]></item>
+        <item name="wcf.user.notification.bookmark.title"><![CDATA[Bookmark was shared]]></item>
+        <item name="wcf.user.notification.bookmark.accept.message"><![CDATA[{@$author->getAnchorTag()} has accepted the shared bookmark <a href="{$url}">{$title}</a>. Your notice: {$remark}]]></item>
+        <item name="wcf.user.notification.bookmark.accept.title"><![CDATA[Bookmarks wurde angenommen]]></item>
+        <item name="wcf.user.notification.bookmark.refuse.message"><![CDATA[{@$author->getAnchorTag()} has refused the shared bookmark <a href="{$url}">{$title}</a>. Your notice: {$remark}]]></item>
+        <item name="wcf.user.notification.bookmark.refuse.title"><![CDATA[Bookmark was refused]]></item>
+        <item name="wcf.user.notification.com.uz.wcf.bookmark"><![CDATA[Bookmark]]></item>
+        <item name="wcf.user.notification.com.uz.wcf.bookmark.notification.bookmark"><![CDATA[Bookmark was shared]]></item>
+        <item name="wcf.user.notification.com.uz.wcf.bookmark.notification.accept.accept"><![CDATA[Bookmark was accepted]]></item>
+        <item name="wcf.user.notification.com.uz.wcf.bookmark.notification.refuse.refuse"><![CDATA[Bookmark was refused]]></item>
+    </category>
+
+    <category name="wcf.user.profile">
+        <item name="wcf.user.profile.menu.bookmark"><![CDATA[Bookmarks]]></item>
+    </category>
+
+    <category name="wcf.user.recentActivity">
+        <item name="wcf.user.recentActivity.com.uz.wcf.bookmark.recentActivityEvent.new"><![CDATA[Bookmark]]></item>
+        <item name="wcf.user.recentActivity.com.uz.wcf.bookmark.recentActivityEvent.share"><![CDATA[Bookmark]]></item>
+    </category>
 </language>

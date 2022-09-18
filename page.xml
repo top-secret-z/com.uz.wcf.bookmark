@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/page.xsd">
-	<import>
-		<page identifier="com.uz.wcf.bookmark.sharedList">
-			<pageType>system</pageType>
-			<controller>wcf\page\BookmarkSharedListPage</controller>
-			<name language="de">Geteilte Lesezeichen</name>
-			<name language="en">Shared Bookmarks</name>
-			<hasFixedParent>1</hasFixedParent>
-			<parent>com.woltlab.wcf.AccountManagement</parent>
-			<permissions>user.bookmark.canUseBookmark</permissions>
-			<options>module_bookmark</options>
-			
-			<content language="en">
-				<title>Shared Bookmarks</title>
-			</content>
-			<content language="de">
-				<title>Geteilte Lesezeichen</title>
-			</content>
-		</page>
-		
-		<page identifier="com.uz.wcf.bookmark.List">
-			<pageType>system</pageType>
-			<controller>wcf\page\UserBookmarkListPage</controller>
-			<handler>wcf\system\page\handler\UserBookmarkListHandler</handler>
-			<name language="de">Lesezeichen</name>
-			<name language="en">Bookmarks</name>
-			<permissions>user.bookmark.canUseBookmark</permissions>
-			<options>module_bookmark</options>
-			
-			<content language="en">
-				<title>Bookmarks</title>
-			</content>
-			<content language="de">
-				<title>Lesezeichen</title>
-			</content>
-		</page>
-	</import>
+    <import>
+        <page identifier="com.uz.wcf.bookmark.sharedList">
+            <pageType>system</pageType>
+            <controller>wcf\page\BookmarkSharedListPage</controller>
+            <name language="de">Geteilte Lesezeichen</name>
+            <name language="en">Shared Bookmarks</name>
+            <hasFixedParent>1</hasFixedParent>
+            <parent>com.woltlab.wcf.AccountManagement</parent>
+            <permissions>user.bookmark.canUseBookmark</permissions>
+            <options>module_bookmark</options>
+
+            <content language="en">
+                <title>Shared Bookmarks</title>
+            </content>
+            <content language="de">
+                <title>Geteilte Lesezeichen</title>
+            </content>
+        </page>
+
+        <page identifier="com.uz.wcf.bookmark.List">
+            <pageType>system</pageType>
+            <controller>wcf\page\UserBookmarkListPage</controller>
+            <handler>wcf\system\page\handler\UserBookmarkListHandler</handler>
+            <name language="de">Lesezeichen</name>
+            <name language="en">Bookmarks</name>
+            <permissions>user.bookmark.canUseBookmark</permissions>
+            <options>module_bookmark</options>
+
+            <content language="en">
+                <title>Bookmarks</title>
+            </content>
+            <content language="de">
+                <title>Lesezeichen</title>
+            </content>
+        </page>
+    </import>
 </data>

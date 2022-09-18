@@ -1,88 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="com.uz.wcf.bookmark" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/package.xsd">
-	<packageinformation>
-		<packagename>Bookmarks</packagename>
-		<packagedescription>Adds bookmarks to your community.</packagedescription>
-		<packagename language="de">Lesezeichen</packagename>
-		<packagedescription language="de">Ergänzt Ihre Community um Lesezeichen.</packagedescription>
-		<version>5.5.1</version>
-		<date>2022-07-15</date>
-	</packageinformation>
-	
-	<authorinformation>
-		<author>Zaydowicz</author>
-	</authorinformation>
-	
-	<requiredpackages>
-		<requiredpackage minversion="5.3.0">com.woltlab.wcf</requiredpackage>
-	</requiredpackages>
-	
-	<excludedpackages>
-		<excludedpackage version="5.6.0 Alpha 1">com.woltlab.wcf</excludedpackage>
-	</excludedpackages>
-	
-	<optionalpackages>
-		<optionalpackage file="optionals/com.uz.wcf.bookmark.blog.tar">com.uz.wcf.bookmark.blog</optionalpackage>
-		<optionalpackage file="optionals/com.uz.wcf.bookmark.calendar.tar">com.uz.wcf.bookmark.calendar</optionalpackage>
-		<optionalpackage file="optionals/com.uz.wcf.bookmark.easymedia.image.tar">com.uz.wcf.bookmark.easymedia.image</optionalpackage>
-		<optionalpackage file="optionals/com.uz.wcf.bookmark.easymedia.video.tar">com.uz.wcf.bookmark.easymedia.video</optionalpackage>
-		<optionalpackage file="optionals/com.uz.wcf.bookmark.filebase.tar">com.uz.wcf.bookmark.filebase</optionalpackage>
-		<optionalpackage file="optionals/com.uz.wcf.bookmark.gallery.tar">com.uz.wcf.bookmark.gallery</optionalpackage>
-		<optionalpackage file="optionals/com.uz.wcf.bookmark.lexicon.tar">com.uz.wcf.bookmark.lexicon</optionalpackage>
-		<optionalpackage file="optionals/com.uz.wcf.bookmark.marketplace.tar">com.uz.wcf.bookmark.marketplace</optionalpackage>
-		<optionalpackage file="optionals/com.uz.wcf.bookmark.news.tar">com.uz.wcf.bookmark.news</optionalpackage>
-		<optionalpackage file="optionals/com.uz.wcf.bookmark.poi.tar">com.uz.wcf.bookmark.poi</optionalpackage>
-		<optionalpackage file="optionals/com.uz.wcf.bookmark.show.tar">com.uz.wcf.bookmark.show</optionalpackage>
-		<optionalpackage file="optionals/com.uz.wcf.bookmark.wbb.tar">com.uz.wcf.bookmark.wbb</optionalpackage>
-		<optionalpackage file="optionals/com.uz.wcf.bookmark.webdisk.tar">com.uz.wcf.bookmark.webdisk</optionalpackage>
-	</optionalpackages>
-	
-	<instructions type="install">
-		<instruction type="file">files.tar</instruction>
-		<instruction type="acpTemplate">acptemplates.tar</instruction>
-		<instruction type="template">templates.tar</instruction>
-		<instruction type="templateListener">templateListener.xml</instruction>
-		<instruction type="coreObject">coreObject.xml</instruction>
-		<instruction type="objectType">objectType.xml</instruction>
-		<instruction type="option">option.xml</instruction>
-		<instruction type="acpMenu">acpMenu.xml</instruction>
-		<instruction type="page">page.xml</instruction>
-		<instruction type="menuItem">menuItem.xml</instruction>
-		<instruction type="userGroupOption">userGroupOption.xml</instruction>
-		<instruction type="userMenu">userMenu.xml</instruction>
-		<instruction type="userProfileMenu">userProfileMenu.xml</instruction>
-		<instruction type="userNotificationEvent">userNotificationEvent.xml</instruction>
-		<instruction type="sql" run="standalone">install.sql</instruction>
-		<instruction type="language">language/*.xml</instruction>
-		<instruction type="box">box.xml</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="5.3.1">
-		<instruction type="file">files.tar</instruction>
-		<instruction type="acpTemplate">acptemplates.tar</instruction>
-		<instruction type="template">templates.tar</instruction>
-		<instruction type="objectType">objectType_541.xml</instruction>
-		<instruction type="option">option.xml</instruction>
-		<instruction type="language">language/*.xml</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="5.4.0">
-		<instruction type="file">files.tar</instruction>
-		<instruction type="acpTemplate">acptemplates.tar</instruction>
-		<instruction type="template">templates.tar</instruction>
-		<instruction type="objectType">objectType_541.xml</instruction>
-		<instruction type="option">option.xml</instruction>
-		<instruction type="language">language/*.xml</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="5.4.1">
-		<instruction type="file">files.tar</instruction>
-		<instruction type="template">templates.tar</instruction>
-		<instruction type="option">option.xml</instruction>
-		<instruction type="language">language/*.xml</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="5.5.0">
-		<instruction type="file">files.tar</instruction>
-	</instructions>
+<package name="de.softcreatr.wcf.bookmark" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/2019/package.xsd">
+    <packageinformation>
+        <packagename>Bookmarks</packagename>
+        <packagedescription>Adds bookmarks to your community.</packagedescription>
+        <packagename language="de">Lesezeichen</packagename>
+        <packagedescription language="de">Ergänzt Ihre Community um Lesezeichen.</packagedescription>
+        <version>5.5.2</version>
+        <date>2022-09-18</date>
+    </packageinformation>
+
+    <authorinformation>
+        <author><![CDATA[SoftCreatR.dev]]></author>
+        <authorurl><![CDATA[https://softcreatr.dev]]></authorurl>
+    </authorinformation>
+
+    <requiredpackages>
+        <requiredpackage minversion="5.3.0">com.woltlab.wcf</requiredpackage>
+    </requiredpackages>
+
+    <excludedpackages>
+        <excludedpackage version="5.6.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+        <excludedpackage version="*">com.uz.wcf.bookmark</excludedpackage>
+    </excludedpackages>
+
+    <optionalpackages>
+        <!-- <optionalpackage file="optionals/de.softcreatr.wcf.bookmark.blog.tar.gz">de.softcreatr.wcf.bookmark.blog</optionalpackage> -->
+        <!-- <optionalpackage file="optionals/de.softcreatr.wcf.bookmark.calendar.tar.gz">de.softcreatr.wcf.bookmark.calendar</optionalpackage> -->
+        <!-- <optionalpackage file="optionals/de.softcreatr.wcf.bookmark.easymedia.image.tar.gz">de.softcreatr.wcf.bookmark.easymedia.image</optionalpackage> -->
+        <!-- <optionalpackage file="optionals/de.softcreatr.wcf.bookmark.easymedia.video.tar.gz">de.softcreatr.wcf.bookmark.easymedia.video</optionalpackage> -->
+        <!-- <optionalpackage file="optionals/de.softcreatr.wcf.bookmark.filebase.tar.gz">de.softcreatr.wcf.bookmark.filebase</optionalpackage> -->
+        <!-- <optionalpackage file="optionals/de.softcreatr.wcf.bookmark.gallery.tar.gz">de.softcreatr.wcf.bookmark.gallery</optionalpackage> -->
+        <!-- <optionalpackage file="optionals/de.softcreatr.wcf.bookmark.lexicon.tar.gz">de.softcreatr.wcf.bookmark.lexicon</optionalpackage> -->
+        <!-- <optionalpackage file="optionals/de.softcreatr.wcf.bookmark.marketplace.tar.gz">de.softcreatr.wcf.bookmark.marketplace</optionalpackage> -->
+        <!-- <optionalpackage file="optionals/de.softcreatr.wcf.bookmark.news.tar.gz">de.softcreatr.wcf.bookmark.news</optionalpackage> -->
+        <!-- <optionalpackage file="optionals/de.softcreatr.wcf.bookmark.poi.tar.gz">de.softcreatr.wcf.bookmark.poi</optionalpackage> -->
+        <!-- <optionalpackage file="optionals/de.softcreatr.wcf.bookmark.show.tar.gz">de.softcreatr.wcf.bookmark.show</optionalpackage> -->
+        <!-- <optionalpackage file="optionals/de.softcreatr.wcf.bookmark.wbb.tar.gz">de.softcreatr.wcf.bookmark.wbb</optionalpackage> -->
+        <!-- <optionalpackage file="optionals/de.softcreatr.wcf.bookmark.webdisk.tar.gz">de.softcreatr.wcf.bookmark.webdisk</optionalpackage> -->
+    </optionalpackages>
+
+    <instructions type="install">
+        <instruction type="file" />
+        <instruction type="acpTemplate" />
+        <instruction type="template" />
+        <instruction type="templateListener" />
+        <instruction type="coreObject" />
+        <instruction type="objectType" />
+        <instruction type="option" />
+        <instruction type="acpMenu" />
+        <instruction type="page" />
+        <instruction type="menuItem" />
+        <instruction type="userGroupOption" />
+        <instruction type="userMenu" />
+        <instruction type="userProfileMenu" />
+        <instruction type="userNotificationEvent" />
+        <instruction type="sql" run="standalone">install.sql</instruction>
+        <instruction type="language" />
+        <instruction type="box" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.3.1">
+        <instruction type="file" />
+        <instruction type="acpTemplate" />
+        <instruction type="template" />
+        <instruction type="objectType">objectType_541.xml</instruction>
+        <instruction type="option" />
+        <instruction type="language" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.4.0">
+        <instruction type="file" />
+        <instruction type="acpTemplate" />
+        <instruction type="template" />
+        <instruction type="objectType">objectType_541.xml</instruction>
+        <instruction type="option" />
+        <instruction type="language" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.4.1">
+        <instruction type="file" />
+        <instruction type="template" />
+        <instruction type="option" />
+        <instruction type="language" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.5.0">
+        <instruction type="file" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.5.1">
+        <instruction type="file" />
+        <instruction type="acpTemplate" />
+        <instruction type="template" />
+        <instruction type="templateListener" />
+        <instruction type="coreObject" />
+        <instruction type="objectType" />
+        <instruction type="option" />
+        <instruction type="acpMenu" />
+        <instruction type="page" />
+        <instruction type="menuItem" />
+        <instruction type="userGroupOption" />
+        <instruction type="userMenu" />
+        <instruction type="userProfileMenu" />
+        <instruction type="userNotificationEvent" />
+        <instruction type="language" />
+        <instruction type="box" />
+    </instructions>
 </package>

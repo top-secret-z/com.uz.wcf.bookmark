@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/menuItem.xsd">
-	<import>
-		<item identifier="com.uz.wcf.bookmark.List">
-			<menu>com.woltlab.wcf.MainMenu</menu>
-			<title language="de">Lesezeichen</title>
-			<title language="en">Bookmarks</title>
-			<page>com.uz.wcf.bookmark.List</page>
-		</item>
-	</import>
+    <import>
+        <item identifier="com.uz.wcf.bookmark.List">
+            <menu>com.woltlab.wcf.MainMenu</menu>
+            <title language="de">Lesezeichen</title>
+            <title language="en">Bookmarks</title>
+            <page>com.uz.wcf.bookmark.List</page>
+        </item>
+    </import>
 </data>
