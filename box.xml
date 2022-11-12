@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/box.xsd">
-	<import>
-		<box identifier="com.uz.wcf.bookmark.newest">
-			<name language="de">Neueste Lesezeichen</name>
-			<name language="en">Newest Bookmarks</name>
-			<boxType>system</boxType>
-			<objectType>com.uz.wcf.bookmark.newest</objectType>
-			<position>sidebarRight</position>
-			<showHeader>1</showHeader>
-			<visibleEverywhere>0</visibleEverywhere>
-			<limit>5</limit>
-			
-			<content language="de">
-				<title>Neueste Lesezeichen</title>
-			</content>
-			<content language="en">
-				<title>Newest Bookmarks</title>
-			</content>
-		</box>
-		
-		<box identifier="com.uz.wcf.bookmark.top">
-			<name language="de">Mitglieder mit den meisten geteilten Lesezeichen</name>
-			<name language="en">Members with the shared Bookmarks</name>
-			<boxType>system</boxType>
-			<objectType>com.uz.wcf.bookmark.top</objectType>
-			<position>sidebarRight</position>
-			<showHeader>1</showHeader>
-			<visibleEverywhere>0</visibleEverywhere>
-			<limit>5</limit>
-			
-			<content language="de">
-				<title>Mitglieder mit den meisten geteilten Lesezeichen</title>
-			</content>
-			<content language="en">
-				<title>Members with the most shared Bookmarks</title>
-			</content>
-		</box>
-	</import>
+    <import>
+        <box identifier="com.uz.wcf.bookmark.newest">
+            <name language="de">Neueste Lesezeichen</name>
+            <name language="en">Newest Bookmarks</name>
+            <boxType>system</boxType>
+            <objectType>com.uz.wcf.bookmark.newest</objectType>
+            <position>sidebarRight</position>
+            <showHeader>1</showHeader>
+            <visibleEverywhere>0</visibleEverywhere>
+            <limit>5</limit>
+
+            <content language="de">
+                <title>Neueste Lesezeichen</title>
+            </content>
+            <content language="en">
+                <title>Newest Bookmarks</title>
+            </content>
+        </box>
+
+        <box identifier="com.uz.wcf.bookmark.top">
+            <name language="de">Mitglieder mit den meisten geteilten Lesezeichen</name>
+            <name language="en">Members with the shared Bookmarks</name>
+            <boxType>system</boxType>
+            <objectType>com.uz.wcf.bookmark.top</objectType>
+            <position>sidebarRight</position>
+            <showHeader>1</showHeader>
+            <visibleEverywhere>0</visibleEverywhere>
+            <limit>5</limit>
+
+            <content language="de">
+                <title>Mitglieder mit den meisten geteilten Lesezeichen</title>
+            </content>
+            <content language="en">
+                <title>Members with the most shared Bookmarks</title>
+            </content>
+        </box>
+    </import>
 </data>

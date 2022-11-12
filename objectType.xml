@@ -1,163 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/objectType.xsd">
-	<import>
-		<!-- box controllers -->
-		<type>
-			<name>com.uz.wcf.bookmark.newest</name>
-			<definitionname>com.woltlab.wcf.boxController</definitionname>
-			<classname>wcf\system\box\BookmarkNewestBoxController</classname>
-		</type>
-		<type>
-			<name>com.uz.wcf.bookmark.top</name>
-			<definitionname>com.woltlab.wcf.boxController</definitionname>
-			<classname>wcf\system\box\BookmarkTopBoxController</classname>
-		</type>
-		
-		<!--  conditions -->
-		<type>
-			<name>com.uz.wcf.bookmark</name>
-			<definitionname>com.woltlab.wcf.condition.ad</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditionobject>com.woltlab.wcf.user</conditionobject>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>bookmarks</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		<type>
-			<name>com.uz.wcf.bookmark.share</name>
-			<definitionname>com.woltlab.wcf.condition.ad</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditionobject>com.woltlab.wcf.user</conditionobject>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>bookmarkShares</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		
-		<type>
-			<name>com.uz.wcf.bookmark</name>
-			<definitionname>com.woltlab.wcf.condition.notice</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditionobject>com.woltlab.wcf.user</conditionobject>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>bookmarks</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		<type>
-			<name>com.uz.wcf.bookmark.share</name>
-			<definitionname>com.woltlab.wcf.condition.notice</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditionobject>com.woltlab.wcf.user</conditionobject>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>bookmarkShares</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		
-		<type>
-			<name>com.uz.wcf.bookmark</name>
-			<definitionname>com.woltlab.wcf.bulkProcessing.user.condition</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>bookmarks</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		<type>
-			<name>com.uz.wcf.bookmark.share</name>
-			<definitionname>com.woltlab.wcf.bulkProcessing.user.condition</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>bookmarkShares</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		
-		<type>
-			<name>com.uz.wcf.bookmark</name>
-			<definitionname>com.woltlab.wcf.condition.userGroupAssignment</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>bookmarks</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		<type>
-			<name>com.uz.wcf.bookmark.share</name>
-			<definitionname>com.woltlab.wcf.condition.userGroupAssignment</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>bookmarkShares</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		
-		<type>
-			<name>com.uz.wcf.bookmark.share</name>
-			<definitionname>com.woltlab.wcf.condition.userSearch</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>bookmarks</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		<type>
-			<name>com.uz.wcf.bookmark</name>
-			<definitionname>com.woltlab.wcf.condition.userSearch</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>bookmarkShares</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		
-		<!--  notifications -->
-		<type>
-			<name>com.uz.wcf.bookmark.notification</name>
-			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
-			<classname>wcf\system\user\notification\object\type\BookmarkUserNotificationObjectType</classname>
-			<category>com.uz.wcf.bookmark</category>
-		</type>
-		<type>
-			<name>com.uz.wcf.bookmark.notification.accept</name>
-			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
-			<classname>wcf\system\user\notification\object\type\BookmarkAcceptUserNotificationObjectType</classname>
-			<category>com.uz.wcf.bookmark</category>
-		</type>
-		<type>
-			<name>com.uz.wcf.bookmark.notification.refuse</name>
-			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
-			<classname>wcf\system\user\notification\object\type\BookmarkRefuseUserNotificationObjectType</classname>
-			<category>com.uz.wcf.bookmark</category>
-		</type>
-		
-		<!-- stat handlers -->
-		<type>
-			<name>com.uz.wcf.bookmark.bookmark</name>
-			<definitionname>com.woltlab.wcf.statDailyHandler</definitionname>
-			<classname>wcf\system\stat\BookmarkStatDailyHandler</classname>
-			<default>0</default>
-			<categoryname>com.woltlab.wcf.user</categoryname>
-		</type>
-		<type>
-			<name>com.uz.wcf.bookmark.share</name>
-			<definitionname>com.woltlab.wcf.statDailyHandler</definitionname>
-			<classname>wcf\system\stat\BookmarkShareStatDailyHandler</classname>
-			<default>0</default>
-			<categoryname>com.woltlab.wcf.user</categoryname>
-		</type>
-		
-		<!--  recent activity -->
-		<type>
-			<name>com.uz.wcf.bookmark.recentActivityEvent.share</name>
-			<definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
-			<classname>wcf\system\user\activity\event\BookmarkShareUserActivityEvent</classname>
-		</type>
-		<type>
-			<name>com.uz.wcf.bookmark.recentActivityEvent.new</name>
-			<definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
-			<classname>wcf\system\user\activity\event\BookmarkNewUserActivityEvent</classname>
-		</type>
-		
-		<!-- user bulk processing actions -->
-		<type>
-			<name>com.uz.wcf.bookmark.delete</name>
-			<definitionname>com.woltlab.wcf.bulkProcessing.user.action</definitionname>
-			<classname>wcf\system\bulk\processing\user\BookmarkDeleteBulkProcessingAction</classname>
-			<action>bookmarkDelete</action>
-			<permissions>admin.user.canEditUser</permissions>
-		</type>
-	</import>
+    <import>
+        <!-- box controllers -->
+        <type>
+            <name>com.uz.wcf.bookmark.newest</name>
+            <definitionname>com.woltlab.wcf.boxController</definitionname>
+            <classname>wcf\system\box\BookmarkNewestBoxController</classname>
+        </type>
+        <type>
+            <name>com.uz.wcf.bookmark.top</name>
+            <definitionname>com.woltlab.wcf.boxController</definitionname>
+            <classname>wcf\system\box\BookmarkTopBoxController</classname>
+        </type>
+
+        <!--  conditions -->
+        <type>
+            <name>com.uz.wcf.bookmark</name>
+            <definitionname>com.woltlab.wcf.condition.ad</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditionobject>com.woltlab.wcf.user</conditionobject>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>bookmarks</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+        <type>
+            <name>com.uz.wcf.bookmark.share</name>
+            <definitionname>com.woltlab.wcf.condition.ad</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditionobject>com.woltlab.wcf.user</conditionobject>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>bookmarkShares</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+
+        <type>
+            <name>com.uz.wcf.bookmark</name>
+            <definitionname>com.woltlab.wcf.condition.notice</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditionobject>com.woltlab.wcf.user</conditionobject>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>bookmarks</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+        <type>
+            <name>com.uz.wcf.bookmark.share</name>
+            <definitionname>com.woltlab.wcf.condition.notice</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditionobject>com.woltlab.wcf.user</conditionobject>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>bookmarkShares</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+
+        <type>
+            <name>com.uz.wcf.bookmark</name>
+            <definitionname>com.woltlab.wcf.bulkProcessing.user.condition</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>bookmarks</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+        <type>
+            <name>com.uz.wcf.bookmark.share</name>
+            <definitionname>com.woltlab.wcf.bulkProcessing.user.condition</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>bookmarkShares</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+
+        <type>
+            <name>com.uz.wcf.bookmark</name>
+            <definitionname>com.woltlab.wcf.condition.userGroupAssignment</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>bookmarks</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+        <type>
+            <name>com.uz.wcf.bookmark.share</name>
+            <definitionname>com.woltlab.wcf.condition.userGroupAssignment</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>bookmarkShares</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+
+        <type>
+            <name>com.uz.wcf.bookmark.share</name>
+            <definitionname>com.woltlab.wcf.condition.userSearch</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>bookmarks</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+        <type>
+            <name>com.uz.wcf.bookmark</name>
+            <definitionname>com.woltlab.wcf.condition.userSearch</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>bookmarkShares</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+
+        <!--  notifications -->
+        <type>
+            <name>com.uz.wcf.bookmark.notification</name>
+            <definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+            <classname>wcf\system\user\notification\object\type\BookmarkUserNotificationObjectType</classname>
+            <category>com.uz.wcf.bookmark</category>
+        </type>
+        <type>
+            <name>com.uz.wcf.bookmark.notification.accept</name>
+            <definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+            <classname>wcf\system\user\notification\object\type\BookmarkAcceptUserNotificationObjectType</classname>
+            <category>com.uz.wcf.bookmark</category>
+        </type>
+        <type>
+            <name>com.uz.wcf.bookmark.notification.refuse</name>
+            <definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+            <classname>wcf\system\user\notification\object\type\BookmarkRefuseUserNotificationObjectType</classname>
+            <category>com.uz.wcf.bookmark</category>
+        </type>
+
+        <!-- stat handlers -->
+        <type>
+            <name>com.uz.wcf.bookmark.bookmark</name>
+            <definitionname>com.woltlab.wcf.statDailyHandler</definitionname>
+            <classname>wcf\system\stat\BookmarkStatDailyHandler</classname>
+            <default>0</default>
+            <categoryname>com.woltlab.wcf.user</categoryname>
+        </type>
+        <type>
+            <name>com.uz.wcf.bookmark.share</name>
+            <definitionname>com.woltlab.wcf.statDailyHandler</definitionname>
+            <classname>wcf\system\stat\BookmarkShareStatDailyHandler</classname>
+            <default>0</default>
+            <categoryname>com.woltlab.wcf.user</categoryname>
+        </type>
+
+        <!--  recent activity -->
+        <type>
+            <name>com.uz.wcf.bookmark.recentActivityEvent.share</name>
+            <definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
+            <classname>wcf\system\user\activity\event\BookmarkShareUserActivityEvent</classname>
+        </type>
+        <type>
+            <name>com.uz.wcf.bookmark.recentActivityEvent.new</name>
+            <definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
+            <classname>wcf\system\user\activity\event\BookmarkNewUserActivityEvent</classname>
+        </type>
+
+        <!-- user bulk processing actions -->
+        <type>
+            <name>com.uz.wcf.bookmark.delete</name>
+            <definitionname>com.woltlab.wcf.bulkProcessing.user.action</definitionname>
+            <classname>wcf\system\bulk\processing\user\BookmarkDeleteBulkProcessingAction</classname>
+            <action>bookmarkDelete</action>
+            <permissions>admin.user.canEditUser</permissions>
+        </type>
+    </import>
 </data>
